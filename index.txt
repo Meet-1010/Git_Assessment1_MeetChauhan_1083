@@ -1,2 +1,2 @@
 First line of index.txt
-Head Modified Locally
+Head Modified Remotely
