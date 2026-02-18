@@ -1,2 +1,2 @@
 First line of index.txt
-Modified Second line 
+Head Modified Locally
