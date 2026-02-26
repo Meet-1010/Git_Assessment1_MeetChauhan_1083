@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="Submit.html" >
+        <fieldset>
+            <legend>Information</legend>
+            <div>
+                <h4>Personal Information Section</h4>
+                <label>Full Name</label>
+                <input type="text" name="name" id="" placeholder="FirstName_LastName">
+            </div><br>
+            <div>
+                <label>About Yourself</label>
+                <textarea name="textarea" id="" maxlength="50" minlength="5"></textarea>
+            </div><br>
+            <div>
+                <label>Email Address</label>
+                <input type="email" name="email" id="email" required>
+            </div><br>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" id="password" required minlength="8">
+            </div><br>
+            <div>
+                <label>Phone Number</label>
+                <input type="tel" name="tel" id="tel" required minlength="10" maxlength="10" pattern="[0-9]{10}">
+            </div><br>
+            <div>
+                <label>Website</label>
+                <input type="url" name="url" id="url">
+            </div><br>
+            <div>
+                <label>Skills</label>
+                <select>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="Javascript">Javascript</option>
+                </select>
+            </div><br>
+            <div>
+                <label>Gender</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+            </div><br>
+            <div>
+                <label>Preferred Color</label>
+                <input type="color" name="color" id="" value="#84ffff">
+            </div><br>
+            <div>
+                <label>Experience Level</label>
+                <input type="range" name="range" id="" step="2" max="10" min="1" >
+            </div><br>
+            <div>
+                <label>Search Interest</label>
+                <input type="search" name="search" id="">
+            </div><br>
+
+
+
+            <div>
+                <h4>Date & Time Inputs</h4>
+                <label>Date of Birth</label>
+                <input type="date" name="" id="" maxlength="2005-12-31">
+            </div><br>
+            <div>
+                <label>Available Time</label>
+                <input type="time" name="" id=""  min="09:00" max="17:00">
+            </div><br>
+            <div>
+                <label>Joining Month</label>
+                <input type="month" name="" id="" value="2026-01">
+            </div><br>
+            <div>
+                <label>Training Week</label>
+                <input type="week" name="" id="" value="2026-W07">
+            </div><br>
+            <div>
+                <label>Interview Slot</label>
+                <input type="time" name="" id="" value="">
+            </div><br>
+
+            <div>
+                <h4>Selection & Upload</h4>
+                <label>Technology</label>
+                <select>
+                    <option value=".Net">.Net</option>
+                    <option value="Angular">Angular</option>
+                    <option value="Java">Java</option>
+                    <option value="ReactJS">ReactJS</option>
+                    <option value="QA">QA</option>
+                </select>
+            </div><br>
+            <div>
+                <label>Resume Upload</label>
+                <input type="file" name="" id="" accept=".pdf">
+            </div><br>
+            <div>
+                <label>Hidden</label>
+                <input type="hidden" name="User1" id="bjbaekrb">
+            </div><br>
+
+
+            <div>
+                <input type="submit" value="submit">
+            </div><br>
+            <div>
+                <input type="reset" value="reset">
+            </div><br>
+            <div>
+                <input type="button" name="button" value="Button" id="">
+            </div><br>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
